@@ -8,9 +8,11 @@ content = []
 
 first_char = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 path = r'\gamesrv\menus\telnet'
+print("******path = ",path,"******")
 
 # Read the XML file
-with open("minitest.xml", "r", encoding='utf-8') as f:
+with open("minitest.xml", "r", encoding='utf-8') as f: # Short xml file for testing
+#with open("dialdirectory.xml", "r", encoding='utf-8') as f:    # Full xml file intended for processing
     # Read each line in the file, readlines() returns a list of lines
     file = f.read()
     xml_string = bs(file, 'xml')
@@ -39,6 +41,7 @@ def print_listing(BBSList):
     for x in BBSList:    
     # # for x,y in (python_dict['EtherTerm']['Phonebook']['BBS']).items():
         # BBS1 = dict(python_dict['EtherTerm']['Phonebook']['BBS'][BBSNum])
+        name = r"[" + x['%s'][0] + "]" % (@name)
         print('\n')
         print(r"["+x['@name'][0]+"]")
         print(r"Name="+x['@name'])
@@ -63,7 +66,7 @@ def group_by_1st_char(BBSList):
     print(grouped_data[first_character],"'s length is:", length)
     if length > 36:
         file_name = r'{first_character}, "  telnet.ini"'
-        print("file_name=",file_name)
+        print("!!!!!!!!file_name=",file_name)
        # Check to see if file exists alread and if so append to it
         if os.path.isfile(file_name):
             with open(file_name, 'a') as f:
@@ -94,6 +97,6 @@ def group_by_1st_char(BBSList):
     pprint.pprint(grouped_data)
     return grouped_data               
         
-group_by_1st_char(BBSList)
-#print_listing(BBSList)
-#print_listing(group_by_1st_char(BBSList))
+#group_by_1st_char(BBSList) # Test print to display grouped data by 1st character
+#print_listing(BBSList) # Test print to display what the contents of each <first_character> telnet.ini file should contain
+print_listing(group_by_1st_char(BBSList)) # Test print to display the output from grouped_data dict
