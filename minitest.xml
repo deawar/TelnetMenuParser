@@ -1,0 +1,149 @@
+<?xml version="1.0" ?>
+<EtherTerm>
+    <Phonebook version="1.0">
+        <BBS name="0day BBS" ip="116.202.123.100" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="0xDECAFBAD" ip="bbs.decafbad.com" port="6523" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="13th Floor BBS" ip="13th.hoyvision.com" port="6400" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="13th Leader BBS" ip="13leader.net" port="8023" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="20 For Beers BBS" ip="20forbeers.com" port="1337" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="300 F-ing Baud BBS" ip="300baud.dynu.net" port="2525" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="32-Bit BBS" ip="x-bit.org" port="2323" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="64 Vintage BBS" ip="64vintageremixbbs.dyndns.org" port="6400" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="68K Time Machine BBS" ip="68ktm.ddns.net" port="1024" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="79 Columns" ip="oddnetwork.org" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="8-Bit Boyz BBS" ip="bbs.8bitboyz.com" port="6502" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="8-Bit Playground" ip="8bit.hoyvision.com" port="6400" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="808 Studios" ip="studios.synchro.net" port="513" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="8Bit Saturday Night" ip="bbs.8bitsaturdaynight.com" port="8888" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />		
+  
+		
+<BBS name="20 For Beers BBS (ssh)" ip="20forbeers.com" port="1338" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="After Hours BBS (ssh)" ip="ah-bbs.com" port="2020" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Agency BBS (ssh)" ip="agency.bbs.nz" port="2024" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Al's Geek Lab BBS (ssh)" ip="bbs.alsgeeklab.com" port="2222" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Archaic Binary (ssh)" ip="bbs.archaicbinary.net" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Back to the Future (ssh)" ip="bttfbbs.com" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Baffa BBS (ssh)" ip="baffa.zapto.org" port="2322" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Basement Theory (ssh)" ip="basement.synchro.net" port="2618" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Big Time BBS (ssh)" ip="bigtime.magnum.uk.net" port="2222" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Bitwoods RBBS-PC (ssh)" ip="bitwoods.duckdns.org" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Blood Stone (ssh)" ip="wwiv.bsbbs.com" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="BodaX BBS (ssh)" ip="bbs.beardy.se" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Bottomless Abyss BBS (ssh)" ip="bbs.bottomlessabyss.net" port="2222" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Capitol Shrill BBS (ssh)" ip="capitolshrill.com" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Cold Fusion BBS (ssh)" ip="cfbbs.net" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="ConstructiveChaos BBS (ssh)" ip="conchaos.synchro.net" port="2278" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Digital Distortion (ssh)" ip="digitaldistortionbbs.com" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Disboardia (ssh)" ip="disboardia.net" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Diskhoppers Palace BBS (ssh)" ip="diskhopp.synchro.net" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Distortion (ssh)" ip="d1st.org" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Dreamland BBS (ssh)" ip="bbs.dreamlandbbs.org" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="End Of The Line BBS (ssh)" ip="endofthelinebbs.com" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Final Zone BBS (ssh)" ip="final-zone.net" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="FlipperZero BBS (ssh)" ip="bbs.gglab.cloud" port="2222" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Forze BBS (ssh)" ip="bbs.opicron.eu" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Global Village BBS (ssh)" ip="the.globalvillagebbs.net" port="2222" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="HyNET BBS (ssh)" ip="bbs.hyena.network" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Ice Castle BBS (ssh)" ip="ice-castle-bbs.net" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Immortal's Domain (ssh)" ip="idomain.synchro.net" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="KD3net (ssh)" ip="bbs.kd3.us" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Magnum BBS (ssh)" ip="bbs.magnum.uk.net" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Midnight Lounge (ssh)" ip="69.73.43.201" port="2022" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Miskatonic BBS (ssh)" ip="timrouter.dns.army" port="2222" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Monterey BBS (ssh)" ip="montereybbs.com" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Muinet (ssh)" ip="muinet.com" port="2233" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Mutiny BBS (ssh)" ip="mutinybbs.com" port="2232" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Noverdu BBS (ssh)" ip="noverdu.com" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Onyx BBS (ssh)" ip="onyxbbs.mywire.org" port="2200" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Phoenix BBS (ssh)" ip="phoenix.bnbbbs.net" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="PhreakNet (ssh)" ip="bbs.phreaknet.org" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Phrenetic BBS (ssh)" ip="bbs.phrenetic.no" port="2022" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Pixelgrounds (ssh)" ip="bbs.pixelgrounds.net" port="8889" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Quantum Wormhole, The (ssh)" ip="bbs.erb.pw" port="45022" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="River Styx BBS (ssh)" ip="riverstyx.ddns.net" port="2222" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Sagramour's Realm (ssh)" ip="sagramoursrealm.asuscomm.com" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Sanitarium BBS (ssh)" ip="wallofhate.com" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Shurato's Heavenly Sphere (ssh)" ip="bbs:shsbbs@shsbbs.net" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Slackers BBS (ssh)" ip="slackers.ddns.net" port="2222" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Slinky's Place (ssh)" ip="slinkybbs.com" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Spot BBS (ssh)" ip="spotbbs.k9zw.com" port="1122" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Star Collision BBS (ssh)" ip="scbbs.nsupdate.info" port="61022" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Taco Pronto (ssh)" ip="tacopronto.bbs.io" port="2022" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="TFSI (ssh)" ip="bbs.tfsi.dev" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Thunderbolt BBS (ssh)" ip="tbolt.synchro.net" port="22036" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Total Chaos II (ssh)" ip="chaos2.ddns.net" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="TW Lounge BBS (ssh)" ip="bbs.twlounge.net" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Undercurrents BBS (ssh)" ip="8086" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Vague BBS (ssh)" ip="vague.ddns.net" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="War Ensemble BBS (ssh)" ip="warensemble.com" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Westland BBS (ssh)" ip="bbs.korenblom.nl" port="22" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Wintermute BBS (ssh)" ip="new@wintermutebbs.ddns.net" port="2222" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="X-Bit BBS (ssh)" ip="x-bit.org" port="2222" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="Xibalba (ssh)" ip="xibalba.l33t.codes" port="44511" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+<BBS name="ZZap BBS (ssh)" ip="bbs.zzap.org" port="229" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		
+    </Phonebook>
+</EtherTerm>      
