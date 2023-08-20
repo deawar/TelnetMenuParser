@@ -2,7 +2,7 @@
  ## Badges  
 [![GitHub issues](https://img.shields.io/github/issues/deawar/TelnetMenuParser?style=plastic)](undefined/network)[![GitHub forks](https://img.shields.io/github/forks/deawar/TelnetMenuParser?style=plastic)](undefined/network)[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/deawar/TelnetMenuParser?style=plastic)](undefined/pull/)[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg?style=plastic)](code_of_conduct.md) 
 ## Description  
-  Creates Telnet Menus from the XML files downloaded from Telnet BBS List into Gamesrv compaatible menus to enable users to telnet directly to other BBS's on the menu list.  
+  Creates Telnet Menus from the XML files downloaded from Telnet BBS List into Gamesrv compatible menus to enable users to telnet directly to other BBS's on the menu list.  
 * [Installation](#installation)  
 * [Usage](#usage)  
 * [Testing](#testing)  
@@ -12,7 +12,7 @@
   
 ## Installation  
 ``` 
-pip install 
+pip install -r requirements.txt
 ``` 
 ## Usage  
 ``` 
@@ -20,7 +20,7 @@ python bsparser.py
 ``` 
 ## Testing  
 ``` 
-python tests.py 
+python test.py 
 ``` 
 ## Credit  
   
