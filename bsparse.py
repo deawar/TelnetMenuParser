@@ -1,6 +1,7 @@
 #import module
 import pprint
 import os
+import lxml
 from bs4 import BeautifulSoup as bs
 from soup2dict import convert
 content = []
