@@ -37,18 +37,47 @@ print("The python dictionary is:")
 # Parameters=theshadowlandsbbs.ddns.net:2300
 # RequiredAccess=10
 
+# if 'X' in BBSList:
+#     BBSInfo = BBSList['X'][0]
+#     BBSName = BBSList['X'][0]['@name']
+#     BBSLen = len(BBSList['X'])
+#     print(BBSLen, "is the number of BBS's in this group")
+#     print(BBSInfo)
+#     print(BBSName)
+# else:
+#     print('Key not found')
+
 def print_listing(BBSList):
-    for x in BBSList:    
-    # # for x,y in (python_dict['EtherTerm']['Phonebook']['BBS']).items():
-        # BBS1 = dict(python_dict['EtherTerm']['Phonebook']['BBS'][BBSNum])
-        name = r"[" + x['%s'][0] + "]" % (@name)
-        print('\n')
-        print(r"["+x['@name'][0]+"]")
-        print(r"Name="+x['@name'])
-        print(r"Action="+x['@protocol'])
-        print(r"Parameter="+x['@ip']+":"+x['@port'])
-        print("RequiredAccess=10")
-        
+    for x in BBSList:  
+        print("Current Index:", [x])  
+        BBSLen = len(BBSList[x])
+        print(BBSLen, "is the number of BBS's in this group")
+        if BBSLen == 1:
+            name = BBSList[x][0]['@name']
+            protocol = BBSList[x][0]['@protocol']
+            ip = BBSList[x][0]['@ip']
+            dirname = BBSList[x][0]
+            print('\n')
+            
+            print(r"[" + x[0] + "]")
+            print(r"Name=" + name)
+            print(r"Action="+ protocol)
+            print(r"Parameter="+ ip)
+            print("RequiredAccess=10")
+            print('\n')
+        else:
+            for i in range(BBSLen):
+                name = BBSList[x][i]['@name']
+                protocol = BBSList[x][i]['@protocol']
+                ip = BBSList[x][i]['@ip']
+                dirname = str(i)
+                print(r"[" + dirname + "]")
+                print(r"Name=" + name)
+                print(r"Action="+ protocol)
+                print(r"Parameter="+ ip)
+                print("RequiredAccess=10")
+                print('\n')
+                
 def group_by_1st_char(BBSList):
     grouped_data = {}
     first_character = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
@@ -97,6 +126,6 @@ def group_by_1st_char(BBSList):
     pprint.pprint(grouped_data)
     return grouped_data               
         
-#group_by_1st_char(BBSList) # Test print to display grouped data by 1st character
+group_by_1st_char(BBSList) # Test print to display grouped data by 1st character
 #print_listing(BBSList) # Test print to display what the contents of each <first_character> telnet.ini file should contain
 print_listing(group_by_1st_char(BBSList)) # Test print to display the output from grouped_data dict

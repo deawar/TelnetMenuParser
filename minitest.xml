@@ -14,7 +14,61 @@
         <BBS name="8-Bit Boyz BBS" ip="bbs.8bitboyz.com" port="6502" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
         <BBS name="8-Bit Playground" ip="8bit.hoyvision.com" port="6400" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
         <BBS name="808 Studios" ip="studios.synchro.net" port="513" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
-        <BBS name="8Bit Saturday Night" ip="bbs.8bitsaturdaynight.com" port="8888" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />		
+        <BBS name="8Bit Saturday Night" ip="bbs.8bitsaturdaynight.com" port="8888" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+		<BBS name="Radio Club Moron" ip="bbs.lu1dbq.org" port="6300" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="RapidFire" ip="rapidfire.hopto.org" port="64128" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Rats Den BBS" ip="bbs.catracing.org" port="6400" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Raven of the Storm" ip="raven.synchro.net" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Raveolution" ip="raveolution.hopto.org" port="64128" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Rayzer's BBS" ip="mail.hohimer.org" port="1336" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="RBB Systems Int'l" ip="rbb.fidonet.fi" port="32" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="RC-BOX" ip="rc2014.ddns.net" port="2014" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="React" ip="react-bbs.nikoh.it" port="2323" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Realitycheck BBS" ip="realitycheckbbs.org" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Realm BBS" ip="therealm.synchro.net" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Realm of Darkness" ip="bbs.trod.org" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Realm of Serion" ip="connect.serionbbs.com" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Realm Of Shadow" ip="137.184.235.220" port="8080" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Realm of the Wizard's Lair" ip="bbs.b-wells.us" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="RedFrog BBS" ip="redfrog.duckdns.org" port="2323" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Reflections BBS" ip="reflections.hopto.org" port="64128" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Region 15 HQ" ip="region15.net" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Reign of Fire" ip="call.rofbbs.com" port="6800" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Reign of Fire II" ip="call.rofbbs.com" port="6400" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Reign of Fire III" ip="call.rofbbs.com" port="8502" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Reisub BBS" ip="reisub.nsupdate.info" port="7020" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Remote CPU BBS" ip="remotecpu.com" port="6502" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Reticulum Ace" ip="bbs.acehoss.net" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Retro 32 BBS" ip="81.143.23.108" port="1337" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Retro Archive (1)" ip="bbs.retroarchive.org" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Retro Running" ip="retrorunning.ddns.net" port="6502" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Retro Unboxers" ip="flashbackbbs.sytes.net" port="6502" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Retroaktiv BBS" ip="retr0aktiv.com" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Retrocampus BBS" ip="bbs.retrocampus.com" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Retrocate BBS" ip="70.187.82.3" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Retrocomputacion BBS" ip="186.13.36.103" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Retroconnect.org" ip="retroconnect.org" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="RetroDigital BBS" ip="rdnetbbs.com" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Retrofun BBS Box" ip="5.231.155.26" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Retrograde BBS" ip="rtg.dyndns.biz" port="6428" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Retroshack" ip="retroshack.org" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Retroverse" ip="bbs.retroverse.au" port="6800" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Reverse Polarity" ip="lovelybits.org" port="1337" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Revolver Ocelot's BBS" ip="185.246.155.136" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Richard's Fun House" ip="richardf.synchro.net" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="RightBrain Networks TWGS" ip="tw2002.rbn.ai" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Rise N' Shine BBS" ip="rns.risenshinebbs.com" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="River Styx BBS" ip="riverstyx.ddns.net" port="2323" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="RMAC Diversi-Dial Station #34" ip="rmac.d-dial.com" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="RMSBBS" ip="rmsbbs.ddns.net" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Rock BBS" ip="therockbbs.net" port="10024" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Rock BBS III" ip="therockbbs.net" port="10023" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Rocket BBS" ip="207.244.238.161" port="2323" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Rockville Tavern" ip="bbs.rockvilletavern.com" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Roon's BBS" ip="bbs.roonsbbs.hu" port="1212" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Roughneck BBS" ip="host.roughneckbbs.com" port="23" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="Rusty Mailbox" ip="trmb.ca" port="2030" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
+        <BBS name="RVs And RPGs BBS System" ip="bbs.rvsandrpgs.com" port="2323" protocol="TELNET" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />		
   
 		
 <BBS name="20 For Beers BBS (ssh)" ip="20forbeers.com" port="1338" protocol="ssh" login="" password="" font="vga8x16.bmp" keyMap="ANSI" />
