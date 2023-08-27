@@ -74,24 +74,37 @@ def print_listing(BBSList):
                 file_count = 0
                 menu_counter = 0
                 file_count = math.ceil(BBSLen/36)
-                x_path = r" {path} + '\\' + {x}"
+                #Print the updated directory path
+                print ("Current Working directory:" , os.getcwd())
+                base = os.getcwd()
+                x_path = base + '\\' + path + '\\' + x + '-telnet'
                 print('New dir:',x_path)
-                os.mkdir(x_path)
+                
+                #check to see if path exist
+                if not os.path.isdir(x_path):
+                 os.mkdir(x_path)
+                
+                #change to Working dir
+                os.chdir(x_path)
+                                 
                 while menu_counter < 37:
-                    
-                    for i in range(BBSLen):
-                        name = BBSList[x][i]['@name']
-                        protocol = BBSList[x][i]['@protocol']
-                        ip = BBSList[x][i]['@ip']
-                        #dirname = str(first_character[i])
-                        dirname = first_character[i]
-                        print(r"[" + dirname + "]")
-                        print(r"Name=" + name)
-                        print(r"Action="+ protocol)
-                        print(r"Parameter="+ ip)
-                        print("RequiredAccess=10")
-                        print('\n')
-                    menu_counter += 1            
+                    new_file_name = str(file_count) + '-telnet.ini'
+                    with open(new_file_name, 'w') as f:
+                        for i in range(BBSLen):
+                            name = BBSList[x][i]['@name']
+                            protocol = BBSList[x][i]['@protocol']
+                            ip = BBSList[x][i]['@ip'] + ':' + BBSList[x][i]['@port']
+                            #dirname = str(first_character[i])
+                            dirname = first_character[i]
+                            print(r"[" + dirname + "]")
+                            print(r"Name=" + name)
+                            print(r"Action="+ protocol)
+                            print(r"Parameter="+ ip)
+                            print("RequiredAccess=10")
+                            print('\n')
+                            f.write(f'\n[{dirname}]\n')
+                            f.write(f'Name={name}\nAction={protocol}\nParameters={ip}\nRequiredAccess=10\n')
+                        menu_counter += 1            
                 
 def group_by_1st_char(BBSList):
     grouped_data = {}
@@ -109,7 +122,7 @@ def group_by_1st_char(BBSList):
     length = len(grouped_data[first_character])
     print(grouped_data[first_character],"'s length is:", length)
     if length > 36:
-        file_name = '{first_character}, "  telnet.ini"'
+        file_name = '{first_character}, "-telnet.ini"'
         print("!!!!!!!!file_name=",file_name)
        # Check to see if file exists alread and if so append to it
         if os.path.isfile(file_name):
