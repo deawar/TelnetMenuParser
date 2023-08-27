@@ -48,6 +48,7 @@ print("The python dictionary is:")
 #     print('Key not found')
 
 def print_listing(BBSList):
+    first_character = ('0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z')
     for x in BBSList:  
         print("Current Index:", [x])  
         BBSLen = len(BBSList[x])
@@ -70,7 +71,8 @@ def print_listing(BBSList):
                 name = BBSList[x][i]['@name']
                 protocol = BBSList[x][i]['@protocol']
                 ip = BBSList[x][i]['@ip']
-                dirname = str(i)
+                #dirname = str(first_character[i])
+                dirname = first_character[i]
                 print(r"[" + dirname + "]")
                 print(r"Name=" + name)
                 print(r"Action="+ protocol)
@@ -80,7 +82,7 @@ def print_listing(BBSList):
                 
 def group_by_1st_char(BBSList):
     grouped_data = {}
-    first_character = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+    first_character = ('0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z')
     menu_counter = 0
     line_count = 0
     for x in BBSList:
