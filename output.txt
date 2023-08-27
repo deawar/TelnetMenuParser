@@ -2711,185 +2711,816 @@ Parameter=realitycheckbbs.org
 RequiredAccess=10
 
 
-[A]
+[10]
 Name=Realm BBS
 Action=TELNET
 Parameter=therealm.synchro.net
 RequiredAccess=10
 
 
-[B]
+[11]
 Name=Realm of Darkness
 Action=TELNET
 Parameter=bbs.trod.org
 RequiredAccess=10
 
 
-[C]
+[12]
 Name=Realm of Serion
 Action=TELNET
 Parameter=connect.serionbbs.com
 RequiredAccess=10
 
 
-[D]
+[13]
 Name=Realm Of Shadow
 Action=TELNET
 Parameter=137.184.235.220
 RequiredAccess=10
 
 
-[E]
+[14]
 Name=Realm of the Wizard's Lair
 Action=TELNET
 Parameter=bbs.b-wells.us
 RequiredAccess=10
 
 
-[F]
+[15]
 Name=RedFrog BBS
 Action=TELNET
 Parameter=redfrog.duckdns.org
 RequiredAccess=10
 
 
-[G]
+[16]
 Name=Reflections BBS
 Action=TELNET
 Parameter=reflections.hopto.org
 RequiredAccess=10
 
 
-[H]
+[17]
 Name=Region 15 HQ
 Action=TELNET
 Parameter=region15.net
 RequiredAccess=10
 
 
-[I]
+[18]
 Name=Reign of Fire
 Action=TELNET
 Parameter=call.rofbbs.com
 RequiredAccess=10
 
 
-[J]
+[19]
 Name=Reign of Fire II
 Action=TELNET
 Parameter=call.rofbbs.com
 RequiredAccess=10
 
 
-[K]
+[20]
 Name=Reign of Fire III
 Action=TELNET
 Parameter=call.rofbbs.com
 RequiredAccess=10
 
 
-[L]
+[21]
 Name=Reisub BBS
 Action=TELNET
 Parameter=reisub.nsupdate.info
 RequiredAccess=10
 
 
-[M]
+[22]
 Name=Remote CPU BBS
 Action=TELNET
 Parameter=remotecpu.com
 RequiredAccess=10
 
 
-[N]
+[23]
 Name=Reticulum Ace
 Action=TELNET
 Parameter=bbs.acehoss.net
 RequiredAccess=10
 
 
-[O]
+[24]
 Name=Retro 32 BBS
 Action=TELNET
 Parameter=81.143.23.108
 RequiredAccess=10
 
 
-[P]
+[25]
 Name=Retro Archive (1)
 Action=TELNET
 Parameter=bbs.retroarchive.org
 RequiredAccess=10
 
 
-[Q]
+[26]
 Name=Retro Running
 Action=TELNET
 Parameter=retrorunning.ddns.net
 RequiredAccess=10
 
 
-[R]
+[27]
 Name=Retro Unboxers
 Action=TELNET
 Parameter=flashbackbbs.sytes.net
 RequiredAccess=10
 
 
-[S]
+[28]
 Name=Retroaktiv BBS
 Action=TELNET
 Parameter=retr0aktiv.com
 RequiredAccess=10
 
 
-[T]
+[29]
 Name=Retrocampus BBS
 Action=TELNET
 Parameter=bbs.retrocampus.com
 RequiredAccess=10
 
 
-[U]
+[30]
 Name=Retrocate BBS
 Action=TELNET
 Parameter=70.187.82.3
 RequiredAccess=10
 
 
-[V]
+[31]
 Name=Retrocomputacion BBS
 Action=TELNET
 Parameter=186.13.36.103
 RequiredAccess=10
 
 
-[W]
+[32]
 Name=Retroconnect.org
 Action=TELNET
 Parameter=retroconnect.org
 RequiredAccess=10
 
 
-[X]
+[33]
 Name=RetroDigital BBS
 Action=TELNET
 Parameter=rdnetbbs.com
 RequiredAccess=10
 
 
-[Y]
+[34]
 Name=Retrofun BBS Box
 Action=TELNET
 Parameter=5.231.155.26
 RequiredAccess=10
 
 
-[Z]
+[35]
 Name=Retrograde BBS
 Action=TELNET
 Parameter=rtg.dyndns.biz
+RequiredAccess=10
+
+
+[36]
+Name=Retroshack
+Action=TELNET
+Parameter=retroshack.org
+RequiredAccess=10
+
+
+[37]
+Name=Retroverse
+Action=TELNET
+Parameter=bbs.retroverse.au
+RequiredAccess=10
+
+
+[38]
+Name=Reverse Polarity
+Action=TELNET
+Parameter=lovelybits.org
+RequiredAccess=10
+
+
+[39]
+Name=Revolver Ocelot's BBS
+Action=TELNET
+Parameter=185.246.155.136
+RequiredAccess=10
+
+
+[40]
+Name=Richard's Fun House
+Action=TELNET
+Parameter=richardf.synchro.net
+RequiredAccess=10
+
+
+[41]
+Name=RightBrain Networks TWGS
+Action=TELNET
+Parameter=tw2002.rbn.ai
+RequiredAccess=10
+
+
+[42]
+Name=Rise N' Shine BBS
+Action=TELNET
+Parameter=rns.risenshinebbs.com
+RequiredAccess=10
+
+
+[43]
+Name=River Styx BBS
+Action=TELNET
+Parameter=riverstyx.ddns.net
+RequiredAccess=10
+
+
+[44]
+Name=RMAC Diversi-Dial Station #34
+Action=TELNET
+Parameter=rmac.d-dial.com
+RequiredAccess=10
+
+
+[45]
+Name=RMSBBS
+Action=TELNET
+Parameter=rmsbbs.ddns.net
+RequiredAccess=10
+
+
+[46]
+Name=Rock BBS
+Action=TELNET
+Parameter=therockbbs.net
+RequiredAccess=10
+
+
+[47]
+Name=Rock BBS III
+Action=TELNET
+Parameter=therockbbs.net
+RequiredAccess=10
+
+
+[48]
+Name=Rocket BBS
+Action=TELNET
+Parameter=207.244.238.161
+RequiredAccess=10
+
+
+[49]
+Name=Rockville Tavern
+Action=TELNET
+Parameter=bbs.rockvilletavern.com
+RequiredAccess=10
+
+
+[50]
+Name=Roon's BBS
+Action=TELNET
+Parameter=bbs.roonsbbs.hu
+RequiredAccess=10
+
+
+[51]
+Name=Roughneck BBS
+Action=TELNET
+Parameter=host.roughneckbbs.com
+RequiredAccess=10
+
+
+[52]
+Name=Rusty Mailbox
+Action=TELNET
+Parameter=trmb.ca
+RequiredAccess=10
+
+
+[53]
+Name=RVs And RPGs BBS System
+Action=TELNET
+Parameter=bbs.rvsandrpgs.com
+RequiredAccess=10
+
+
+[54]
+Name=River Styx BBS (ssh)
+Action=ssh
+Parameter=riverstyx.ddns.net
+RequiredAccess=10
+
+
+Current Index: ['A']
+4 is the number of BBS's in this group
+[0]
+Name=After Hours BBS (ssh)
+Action=ssh
+Parameter=ah-bbs.com
+RequiredAccess=10
+
+
+[1]
+Name=Agency BBS (ssh)
+Action=ssh
+Parameter=agency.bbs.nz
+RequiredAccess=10
+
+
+[2]
+Name=Al's Geek Lab BBS (ssh)
+Action=ssh
+Parameter=bbs.alsgeeklab.com
+RequiredAccess=10
+
+
+[3]
+Name=Archaic Binary (ssh)
+Action=ssh
+Parameter=bbs.archaicbinary.net
+RequiredAccess=10
+
+
+Current Index: ['B']
+8 is the number of BBS's in this group
+[0]
+Name=Back to the Future (ssh)
+Action=ssh
+Parameter=bttfbbs.com
+RequiredAccess=10
+
+
+[1]
+Name=Baffa BBS (ssh)
+Action=ssh
+Parameter=baffa.zapto.org
+RequiredAccess=10
+
+
+[2]
+Name=Basement Theory (ssh)
+Action=ssh
+Parameter=basement.synchro.net
+RequiredAccess=10
+
+
+[3]
+Name=Big Time BBS (ssh)
+Action=ssh
+Parameter=bigtime.magnum.uk.net
+RequiredAccess=10
+
+
+[4]
+Name=Bitwoods RBBS-PC (ssh)
+Action=ssh
+Parameter=bitwoods.duckdns.org
+RequiredAccess=10
+
+
+[5]
+Name=Blood Stone (ssh)
+Action=ssh
+Parameter=wwiv.bsbbs.com
+RequiredAccess=10
+
+
+[6]
+Name=BodaX BBS (ssh)
+Action=ssh
+Parameter=bbs.beardy.se
+RequiredAccess=10
+
+
+[7]
+Name=Bottomless Abyss BBS (ssh)
+Action=ssh
+Parameter=bbs.bottomlessabyss.net
+RequiredAccess=10
+
+
+Current Index: ['C']
+3 is the number of BBS's in this group
+[0]
+Name=Capitol Shrill BBS (ssh)
+Action=ssh
+Parameter=capitolshrill.com
+RequiredAccess=10
+
+
+[1]
+Name=Cold Fusion BBS (ssh)
+Action=ssh
+Parameter=cfbbs.net
+RequiredAccess=10
+
+
+[2]
+Name=ConstructiveChaos BBS (ssh)
+Action=ssh
+Parameter=conchaos.synchro.net
+RequiredAccess=10
+
+
+Current Index: ['D']
+5 is the number of BBS's in this group
+[0]
+Name=Digital Distortion (ssh)
+Action=ssh
+Parameter=digitaldistortionbbs.com
+RequiredAccess=10
+
+
+[1]
+Name=Disboardia (ssh)
+Action=ssh
+Parameter=disboardia.net
+RequiredAccess=10
+
+
+[2]
+Name=Diskhoppers Palace BBS (ssh)
+Action=ssh
+Parameter=diskhopp.synchro.net
+RequiredAccess=10
+
+
+[3]
+Name=Distortion (ssh)
+Action=ssh
+Parameter=d1st.org
+RequiredAccess=10
+
+
+[4]
+Name=Dreamland BBS (ssh)
+Action=ssh
+Parameter=bbs.dreamlandbbs.org
+RequiredAccess=10
+
+
+Current Index: ['E']
+1 is the number of BBS's in this group
+
+
+[E]
+Name=End Of The Line BBS (ssh)
+Action=ssh
+Parameter=endofthelinebbs.com
+RequiredAccess=10
+
+
+Current Index: ['F']
+3 is the number of BBS's in this group
+[0]
+Name=Final Zone BBS (ssh)
+Action=ssh
+Parameter=final-zone.net
+RequiredAccess=10
+
+
+[1]
+Name=FlipperZero BBS (ssh)
+Action=ssh
+Parameter=bbs.gglab.cloud
+RequiredAccess=10
+
+
+[2]
+Name=Forze BBS (ssh)
+Action=ssh
+Parameter=bbs.opicron.eu
+RequiredAccess=10
+
+
+Current Index: ['G']
+1 is the number of BBS's in this group
+
+
+[G]
+Name=Global Village BBS (ssh)
+Action=ssh
+Parameter=the.globalvillagebbs.net
+RequiredAccess=10
+
+
+Current Index: ['H']
+1 is the number of BBS's in this group
+
+
+[H]
+Name=HyNET BBS (ssh)
+Action=ssh
+Parameter=bbs.hyena.network
+RequiredAccess=10
+
+
+Current Index: ['I']
+2 is the number of BBS's in this group
+[0]
+Name=Ice Castle BBS (ssh)
+Action=ssh
+Parameter=ice-castle-bbs.net
+RequiredAccess=10
+
+
+[1]
+Name=Immortal's Domain (ssh)
+Action=ssh
+Parameter=idomain.synchro.net
+RequiredAccess=10
+
+
+Current Index: ['K']
+1 is the number of BBS's in this group
+
+
+[K]
+Name=KD3net (ssh)
+Action=ssh
+Parameter=bbs.kd3.us
+RequiredAccess=10
+
+
+Current Index: ['M']
+6 is the number of BBS's in this group
+[0]
+Name=Magnum BBS (ssh)
+Action=ssh
+Parameter=bbs.magnum.uk.net
+RequiredAccess=10
+
+
+[1]
+Name=Midnight Lounge (ssh)
+Action=ssh
+Parameter=69.73.43.201
+RequiredAccess=10
+
+
+[2]
+Name=Miskatonic BBS (ssh)
+Action=ssh
+Parameter=timrouter.dns.army
+RequiredAccess=10
+
+
+[3]
+Name=Monterey BBS (ssh)
+Action=ssh
+Parameter=montereybbs.com
+RequiredAccess=10
+
+
+[4]
+Name=Muinet (ssh)
+Action=ssh
+Parameter=muinet.com
+RequiredAccess=10
+
+
+[5]
+Name=Mutiny BBS (ssh)
+Action=ssh
+Parameter=mutinybbs.com
+RequiredAccess=10
+
+
+Current Index: ['N']
+1 is the number of BBS's in this group
+
+
+[N]
+Name=Noverdu BBS (ssh)
+Action=ssh
+Parameter=noverdu.com
+RequiredAccess=10
+
+
+Current Index: ['O']
+1 is the number of BBS's in this group
+
+
+[O]
+Name=Onyx BBS (ssh)
+Action=ssh
+Parameter=onyxbbs.mywire.org
+RequiredAccess=10
+
+
+Current Index: ['P']
+4 is the number of BBS's in this group
+[0]
+Name=Phoenix BBS (ssh)
+Action=ssh
+Parameter=phoenix.bnbbbs.net
+RequiredAccess=10
+
+
+[1]
+Name=PhreakNet (ssh)
+Action=ssh
+Parameter=bbs.phreaknet.org
+RequiredAccess=10
+
+
+[2]
+Name=Phrenetic BBS (ssh)
+Action=ssh
+Parameter=bbs.phrenetic.no
+RequiredAccess=10
+
+
+[3]
+Name=Pixelgrounds (ssh)
+Action=ssh
+Parameter=bbs.pixelgrounds.net
+RequiredAccess=10
+
+
+Current Index: ['Q']
+1 is the number of BBS's in this group
+
+
+[Q]
+Name=Quantum Wormhole, The (ssh)
+Action=ssh
+Parameter=bbs.erb.pw
+RequiredAccess=10
+
+
+Current Index: ['S']
+7 is the number of BBS's in this group
+[0]
+Name=Sagramour's Realm (ssh)
+Action=ssh
+Parameter=sagramoursrealm.asuscomm.com
+RequiredAccess=10
+
+
+[1]
+Name=Sanitarium BBS (ssh)
+Action=ssh
+Parameter=wallofhate.com
+RequiredAccess=10
+
+
+[2]
+Name=Shurato's Heavenly Sphere (ssh)
+Action=ssh
+Parameter=bbs:shsbbs@shsbbs.net
+RequiredAccess=10
+
+
+[3]
+Name=Slackers BBS (ssh)
+Action=ssh
+Parameter=slackers.ddns.net
+RequiredAccess=10
+
+
+[4]
+Name=Slinky's Place (ssh)
+Action=ssh
+Parameter=slinkybbs.com
+RequiredAccess=10
+
+
+[5]
+Name=Spot BBS (ssh)
+Action=ssh
+Parameter=spotbbs.k9zw.com
+RequiredAccess=10
+
+
+[6]
+Name=Star Collision BBS (ssh)
+Action=ssh
+Parameter=scbbs.nsupdate.info
+RequiredAccess=10
+
+
+Current Index: ['T']
+5 is the number of BBS's in this group
+[0]
+Name=Taco Pronto (ssh)
+Action=ssh
+Parameter=tacopronto.bbs.io
+RequiredAccess=10
+
+
+[1]
+Name=TFSI (ssh)
+Action=ssh
+Parameter=bbs.tfsi.dev
+RequiredAccess=10
+
+
+[2]
+Name=Thunderbolt BBS (ssh)
+Action=ssh
+Parameter=tbolt.synchro.net
+RequiredAccess=10
+
+
+[3]
+Name=Total Chaos II (ssh)
+Action=ssh
+Parameter=chaos2.ddns.net
+RequiredAccess=10
+
+
+[4]
+Name=TW Lounge BBS (ssh)
+Action=ssh
+Parameter=bbs.twlounge.net
+RequiredAccess=10
+
+
+Current Index: ['U']
+1 is the number of BBS's in this group
+
+
+[U]
+Name=Undercurrents BBS (ssh)
+Action=ssh
+Parameter=8086
+RequiredAccess=10
+
+
+Current Index: ['V']
+1 is the number of BBS's in this group
+
+
+[V]
+Name=Vague BBS (ssh)
+Action=ssh
+Parameter=vague.ddns.net
+RequiredAccess=10
+
+
+Current Index: ['W']
+3 is the number of BBS's in this group
+[0]
+Name=War Ensemble BBS (ssh)
+Action=ssh
+Parameter=warensemble.com
+RequiredAccess=10
+
+
+[1]
+Name=Westland BBS (ssh)
+Action=ssh
+Parameter=bbs.korenblom.nl
+RequiredAccess=10
+
+
+[2]
+Name=Wintermute BBS (ssh)
+Action=ssh
+Parameter=new@wintermutebbs.ddns.net
+RequiredAccess=10
+
+
+Current Index: ['X']
+2 is the number of BBS's in this group
+[0]
+Name=X-Bit BBS (ssh)
+Action=ssh
+Parameter=x-bit.org
+RequiredAccess=10
+
+
+[1]
+Name=Xibalba (ssh)
+Action=ssh
+Parameter=xibalba.l33t.codes
+RequiredAccess=10
+
+
+Current Index: ['Z']
+1 is the number of BBS's in this group
+
+
+[Z]
+Name=ZZap BBS (ssh)
+Action=ssh
+Parameter=bbs.zzap.org
 RequiredAccess=10
 
 
