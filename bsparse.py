@@ -1,5 +1,7 @@
 #import module
 import pprint
+import sys
+import math
 import os
 import lxml
 from bs4 import BeautifulSoup as bs
@@ -11,7 +13,8 @@ path = r'\gamesrv\menus\telnet'
 print("******path = ",path,"******")
 
 # Read the XML file
-with open("minitest.xml", "r", encoding='utf-8') as f: # Short xml file for testing
+with open(sys.argv[1], "r", encoding='utf-8') as f:
+#with open("minitest.xml", "r", encoding='utf-8') as f: # Short xml file for testing
 #with open("dialdirectory.xml", "r", encoding='utf-8') as f:    # Full xml file intended for processing
     # Read each line in the file, readlines() returns a list of lines
     file = f.read()
@@ -67,18 +70,28 @@ def print_listing(BBSList):
             print("RequiredAccess=10")
             print('\n')
         else:
-            for i in range(BBSLen):
-                name = BBSList[x][i]['@name']
-                protocol = BBSList[x][i]['@protocol']
-                ip = BBSList[x][i]['@ip']
-                #dirname = str(first_character[i])
-                dirname = first_character[i]
-                print(r"[" + dirname + "]")
-                print(r"Name=" + name)
-                print(r"Action="+ protocol)
-                print(r"Parameter="+ ip)
-                print("RequiredAccess=10")
-                print('\n')
+            if BBSLen > 36:
+                file_count = 0
+                menu_counter = 0
+                file_count = math.ceil(BBSLen/36)
+                x_path = r" {path} + '\\' + {x}"
+                print('New dir:',x_path)
+                os.mkdir(x_path)
+                while menu_counter < 37:
+                    
+                    for i in range(BBSLen):
+                        name = BBSList[x][i]['@name']
+                        protocol = BBSList[x][i]['@protocol']
+                        ip = BBSList[x][i]['@ip']
+                        #dirname = str(first_character[i])
+                        dirname = first_character[i]
+                        print(r"[" + dirname + "]")
+                        print(r"Name=" + name)
+                        print(r"Action="+ protocol)
+                        print(r"Parameter="+ ip)
+                        print("RequiredAccess=10")
+                        print('\n')
+                    menu_counter += 1            
                 
 def group_by_1st_char(BBSList):
     grouped_data = {}
@@ -96,7 +109,7 @@ def group_by_1st_char(BBSList):
     length = len(grouped_data[first_character])
     print(grouped_data[first_character],"'s length is:", length)
     if length > 36:
-        file_name = r'{first_character}, "  telnet.ini"'
+        file_name = '{first_character}, "  telnet.ini"'
         print("!!!!!!!!file_name=",file_name)
        # Check to see if file exists alread and if so append to it
         if os.path.isfile(file_name):
