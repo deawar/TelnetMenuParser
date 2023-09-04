@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup as bs
 from soup2dict import convert
 content = []
 
-first_char = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+first_char = ('0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z')
 path = r'\gamesrv\menus\telnet'
 print("******path = ",path,"******")
 
@@ -71,8 +71,8 @@ def print_listing(BBSList):
             print('\n')
         else:
             if BBSLen > 36:
-                file_count = 0
-                menu_counter = 0
+                file_count = 0 # File_count is the number of files  dirived from dividing 36/BBSLen and rounding up to a whole integer 
+                menu_counter = 0 # Menu_counter is the number of items in each file
                 file_count = math.ceil(BBSLen/36)
                 #Print the updated directory path
                 print ("Current Working directory:" , os.getcwd())
@@ -80,31 +80,45 @@ def print_listing(BBSList):
                 x_path = base + '\\' + path + '\\' + x + '-telnet'
                 print('New dir:',x_path)
                 
-                #check to see if path exist
-                if not os.path.isdir(x_path):
+                if not os.path.isdir(x_path): #check to see if path exist
                  os.mkdir(x_path)
+               
+                os.chdir(x_path)  #change to Working dir
                 
-                #change to Working dir
-                os.chdir(x_path)
-                                 
-                while menu_counter < 37:
-                    new_file_name = str(file_count) + '-telnet.ini'
+                for file_index in range(file_count):  # File_count is the number of files  dirived from dividing 36/BBSLen and rounding up to a whole integer                
+                    new_file_name = str(file_index) + '-telnet.ini'
+                    print("Current new_file_name:", new_file_name)
                     with open(new_file_name, 'w') as f:
-                        for i in range(BBSLen):
-                            name = BBSList[x][i]['@name']
-                            protocol = BBSList[x][i]['@protocol']
-                            ip = BBSList[x][i]['@ip'] + ':' + BBSList[x][i]['@port']
-                            #dirname = str(first_character[i])
-                            dirname = first_character[i]
-                            print(r"[" + dirname + "]")
-                            print(r"Name=" + name)
-                            print(r"Action="+ protocol)
-                            print(r"Parameter="+ ip)
-                            print("RequiredAccess=10")
-                            print('\n')
-                            f.write(f'\n[{dirname}]\n')
-                            f.write(f'Name={name}\nAction={protocol}\nParameters={ip}\nRequiredAccess=10\n')
-                        menu_counter += 1            
+                        while menu_counter < 35:
+                            for i in range(BBSLen):
+                                print("current index(i):", i)
+                                print ("menu counter:", menu_counter)
+                                name = BBSList[x][i]['@name']
+                                protocol = BBSList[x][i]['@protocol']
+                                ip = BBSList[x][i]['@ip'] + ':' + BBSList[x][i]['@port']
+                                if i == 36:
+                                    f.write(f'\n[*]\n')
+                                    f.write(f'Name=Quit to Previous Menu\nAction=ChangeMenu\nParameters=Telnetdoor\nRequiredAccess=0\n')
+                                #dirname = str(first_character[i])
+                                dirname = first_character[menu_counter]
+                                    # [*]
+                                    # Name=Quit to Previous Menu
+                                    # Action=ChangeMenu
+                                    # Parameters=Telnetdoor
+                                    # RequiredAccess=0
+                                    # print(r"[" + dirname + "]")
+                                    # print(r"Name=" + name)
+                                    # print(r"Action="+ protocol)
+                                    # print(r"Parameter="+ ip)
+                                    # print("RequiredAccess=10")
+                                    # print('\n')
+                                f.write(f'\n[{dirname}]\n')
+                                f.write(f'Name={name}\nAction={protocol}\nParameters={ip}\nRequiredAccess=10\n')
+                                menu_counter += 1 
+                                
+
+                        
+                              
                 
 def group_by_1st_char(BBSList):
     grouped_data = {}
