@@ -71,9 +71,9 @@ def print_listing(BBSList):
             print('\n')
         else:
             if BBSLen > 36:
-                file_count = 0 # File_count is the number of files  dirived from dividing 36/BBSLen and rounding up to a whole integer 
+                file_count = 0 # Set File_count to 0  
                 menu_counter = 0 # Menu_counter is the number of items in each file
-                file_count = math.ceil(BBSLen/36)
+                file_count = math.ceil(BBSLen/36) # File_count is the number of files  dirived from dividing 36/BBSLen and rounding up to a whole integer 
                 #Print the updated directory path
                 print ("Current Working directory:" , os.getcwd())
                 base = os.getcwd()
@@ -89,32 +89,39 @@ def print_listing(BBSList):
                     new_file_name = str(file_index) + '-telnet.ini'
                     print("Current new_file_name:", new_file_name)
                     with open(new_file_name, 'w') as f:
-                        while menu_counter < 35:
-                            for i in range(BBSLen):
+                        menu_counter = 0
+                        while menu_counter < 36:
+                            i = 0
+                            while i < 36:
                                 print("current index(i):", i)
-                                print ("menu counter:", menu_counter)
                                 name = BBSList[x][i]['@name']
                                 protocol = BBSList[x][i]['@protocol']
                                 ip = BBSList[x][i]['@ip'] + ':' + BBSList[x][i]['@port']
                                 if i == 36:
+                                    print("Creating Exit Menu.I:", i)
                                     f.write(f'\n[*]\n')
                                     f.write(f'Name=Quit to Previous Menu\nAction=ChangeMenu\nParameters=Telnetdoor\nRequiredAccess=0\n')
-                                #dirname = str(first_character[i])
-                                dirname = first_character[menu_counter]
-                                    # [*]
-                                    # Name=Quit to Previous Menu
-                                    # Action=ChangeMenu
-                                    # Parameters=Telnetdoor
-                                    # RequiredAccess=0
-                                    # print(r"[" + dirname + "]")
-                                    # print(r"Name=" + name)
-                                    # print(r"Action="+ protocol)
-                                    # print(r"Parameter="+ ip)
-                                    # print("RequiredAccess=10")
-                                    # print('\n')
-                                f.write(f'\n[{dirname}]\n')
-                                f.write(f'Name={name}\nAction={protocol}\nParameters={ip}\nRequiredAccess=10\n')
-                                menu_counter += 1 
+                                    i = 0
+                                    f.close()
+                                else:    
+                                    print ("menu counter:", menu_counter)
+                                    dirname = first_character[menu_counter]
+                                    print("dirname = first_character[menu_counter]",dirname)
+                                        # [*]
+                                        # Name=Quit to Previous Menu
+                                        # Action=ChangeMenu
+                                        # Parameters=Telnetdoor
+                                        # RequiredAccess=0
+                                        # print(r"[" + dirname + "]")
+                                        # print(r"Name=" + name)
+                                        # print(r"Action="+ protocol)
+                                        # print(r"Parameter="+ ip)
+                                        # print("RequiredAccess=10")
+                                        # print('\n')
+                                    f.write(f'\n[{dirname}]\n')
+                                    f.write(f'Name={name}\nAction={protocol}\nParameters={ip}\nRequiredAccess=10\n')
+                                    i += 1 
+                                    menu_counter += 1
                                 
 
                         
