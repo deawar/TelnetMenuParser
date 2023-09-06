@@ -1,4 +1,4 @@
-#import module
+# import modules
 import pprint
 import sys
 import math
@@ -9,8 +9,8 @@ from soup2dict import convert
 content = []
 
 first_char = ('0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z')
-path = r'\gamesrv\menus\telnet'
-print("******path = ",path,"******")
+telnet_path = r'gamesrv\menus\telnet'
+print("******telnet_path = ",telnet_path,"******")
 
 # Read the XML file
 with open(sys.argv[1], "r", encoding='utf-8') as f:
@@ -74,13 +74,16 @@ def print_listing(BBSList):
                 file_count = 0 # File_count is the number of files  dirived from dividing 36/BBSLen and rounding up to a whole integer 
                 menu_counter = 0 # Menu_counter is the number of items in each file
                 file_count = math.ceil(BBSLen/36)
-                #Print the updated directory path
+                # Print the updated directory path
                 print ("Current Working directory:" , os.getcwd())
                 base = os.getcwd()
-                x_path = base + '\\' + path + '\\' + x + '-telnet'
+                x_path = base + '\\' + telnet_path + '\\' + x + '-telnet'
                 print('New dir:',x_path)
                 
                 if not os.path.isdir(x_path): #check to see if path exist
+                 print("Please start this script in the Gamesrv directory")
+                 if not os.path.isdir(telnet_path):
+                     os.mkdir(telnet_path)
                  os.mkdir(x_path)
                
                 os.chdir(x_path)  #change to Working dir
@@ -89,7 +92,7 @@ def print_listing(BBSList):
                     new_file_name = str(file_index) + '-telnet.ini'
                     print("Current new_file_name:", new_file_name)
                     with open(new_file_name, 'w') as f:
-                        while menu_counter < 35:
+                        while menu_counter < 36:
                             for i in range(BBSLen):
                                 print("current index(i):", i)
                                 print ("menu counter:", menu_counter)
